@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/image">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:id="@+id/profileIV"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:gravity="center"
+                android:background="#eee"/>
+
+            <Button
+                android:id="@+id/choseBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="chose photo"
+                android:layout_marginTop="20dp"
+                android:padding="10dp" />
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:id="@+id/profileedit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+
+
+                <EditText
+                    android:id="@+id/nameET"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="15"
+                    android:drawablePadding="10dp"
+                    android:layout_margin="5dp"
+                    android:hint="Name"
+                    android:inputType="textEmailAddress" />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+
+
+                <EditText
+                    android:id="@+id/contactET"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="15"
+                    android:drawablePadding="10dp"
+                    android:layout_margin="5dp"
+                    android:text="12345678901"
+                    android:inputType="textEmailAddress" />
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+
+
+                <EditText
+                    android:id="@+id/emailET"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="15"
+                    android:drawablePadding="10dp"
+                    android:layout_margin="5dp"
+                    android:text="new2@gmail.com"
+                    android:inputType="textEmailAddress" />
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+
+                <EditText
+                    android:id="@+id/addressET"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="15"
+                    android:drawablePadding="10dp"
+                    android:layout_margin="5dp"
+                    android:text="dhaka"
+                    android:inputType="textEmailAddress" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/editBtn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="edit profile"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"/>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
